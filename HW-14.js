@@ -1,16 +1,13 @@
 // correction task
-function findNumber(c, i, d){
-    let result;
-    if (c >= i && c >= d){
-        result = c;
-    }else {
-        result = (i >= d) ? i : d;
+
+function findLargestNumber(a, b, c) {
+    if (a >= b && a >= c) {
+      return a;
+    } else if (b >= c) {
+      return b;
+    } else {
+      return c;
     }
-
-return result;
-}
-console.log(findNumber(12, 25, 7));
-console.log(findNumber(5, 9, 11));
-
-
-
+  }
+  console.log(findLargestNumber(12, 25, 7));  
+  console.log(findLargestNumber(5, 9, 11));   
