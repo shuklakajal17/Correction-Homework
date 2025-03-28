@@ -1,9 +1,14 @@
 // correction task
 
-function myGrade(score){
-    return score >= 90 ? "A" :
-    score >= 80 ? "B" :
-    score >= 70 ? "C" : "D";
+
+let score = 85; 
+
+if (score >= 90) {
+    console.log("A");
+} else if (score >= 80) {
+    console.log("B");
+} else if (score >= 70) {
+    console.log("C");
+} else {
+    console.log("D");
 }
-console.log(myGrade(85));
-console.log(myGrade(72));
