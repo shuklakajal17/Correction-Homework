@@ -1,10 +1,13 @@
 // correction task
 
 
-function myTemperature(temp){
-    return temp <= 15 ? "cold" :
-    temp <= 30 ? "moderate" : "hot";
+
+let temperature = 22; 
+
+if (temperature < 15) {
+    console.log("Cold");
+} else if (temperature >= 15 && temperature <= 30) {
+    console.log("Moderate");
+} else {
+    console.log("Hot");
 }
-console.log(myTemperature(10));
-console.log(myTemperature(22));
-console.log(myTemperature(35));
