@@ -1,10 +1,22 @@
 // correction task
+
 function myNumber(num){
-    return num > 0 ? "positive" : num < 0 ? "negative" : "zero";
+    if (num > 0){
+        return positive;
+    }else if (num < 0){
+        return negative;
+    }else {
+        return zero;
+    }
 }
 console.log(myNumber(5));
 console.log(myNumber(-3));
 console.log(myNumber(0));
+
+
+
+
+
 
 
 
