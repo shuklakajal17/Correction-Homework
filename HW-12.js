@@ -1,7 +1,9 @@
 // correction task
 
-function myNumber(number){
-    return number % 2 === 0 ? "even" : "odd";
+let num = 10; 
+
+if (num % 2 === 0) {
+    console.log("Even");
+} else {
+    console.log("Odd");
 }
-console.log(myNumber(10));
-console.log(myNumber(7));
